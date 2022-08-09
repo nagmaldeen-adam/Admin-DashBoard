@@ -1,0 +1,129 @@
+.App.dark{
+    background-color: #111;
+    color:rgb(156 , 156 , 156);
+
+    .chartGrid{
+        stroke:rgba(288 , 288 , 288 , 0.219);
+    }
+
+    .table{
+        background-color: #111;
+        
+
+        .tableCell{
+            color:gray;
+        }
+    }
+
+    .navbar{
+       color:#999;
+       border-color: #333; 
+
+
+       .search{
+        border-color:gray;
+       }
+    }
+
+    .sidebar{
+        background-color: #111;
+        border-color:#333;
+
+        .top{
+            .logo{
+                color:gray;
+            }
+        }
+
+        hr{
+          border-color:#333;
+        }
+
+        ul{
+            li{
+                &:hover{
+                   background-color: #333; 
+                }
+
+                .icon{
+                    color: #999;
+                }
+            }
+        }
+    }
+
+    .data{
+        .grid{
+            color: gray;
+            border:none;
+
+            .viewButton, 
+            .deleteButton,
+            .cellWithStatus {
+              color:gray;
+              border:none;
+            }
+        }
+    }
+
+    input{
+        background: transparent;
+    }
+
+    .chart{
+        -webkit-box-shadow:4px 1px 6px 0 rgba(0, 0, 0, 0.47);
+         box-shadow:1px 1px 6px 0 rgba(58, 56, 56, 0.47);
+       }
+
+       .featured{
+        -webkit-box-shadow:4px 1px 6px 0 rgba(0, 0, 0, 0.47);
+        box-shadow:1px 1px 6px 0 rgba(58, 56, 56, 0.47);
+       }
+          .home{
+            .home-Container{
+       .listContainer{
+        -webkit-box-shadow:4px 1px 6px 0 rgba(0, 0, 0, 0.47);
+        box-shadow:1px 1px 6px 0 rgba(58, 56, 56, 0.47);
+       }
+    }
+    }
+
+     .wedget{
+       -webkit-box-shadow:4px 1px 6px 0 rgba(0, 0, 0, 0.47);
+        box-shadow:1px 1px 6px 0 rgba(58, 56, 56, 0.47);
+    }
+
+
+
+    .new{
+       .newContainer{
+        .top , 
+        .bottom{
+            -webkit-box-shadow:4px 1px 6px 0 rgba(0, 0, 0, 0.47);
+             box-shadow:1px 1px 6px 0 rgba(58, 56, 56, 0.47);
+        }
+    }
+   }
+
+
+
+   .single{
+    .singleContainer{
+         .top{
+            .left{
+                -webkit-box-shadow:4px 1px 6px 0 rgba(0, 0, 0, 0.47);
+                 box-shadow:1px 1px 6px 0 rgba(58, 56, 56, 0.47);
+            }
+        }
+      }
+    }
+
+     .single{
+        .singleContainer{
+           .bottom{
+            -webkit-box-shadow:4px 1px 6px 0 rgba(0, 0, 0, 0.47);
+            box-shadow:1px 1px 6px 0 rgba(58, 56, 56, 0.47);
+         }
+     }
+    }
+}
